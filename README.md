@@ -12,7 +12,7 @@ https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 2) "Kmeans_240319.ipynb" - python code for Kmeans clustering
 3) "Kmeans_PCA_240319.ipynb" - python code for Kmeans clustering after reducing the number of features in the dataset
 4) "keras_model.ipynb" - python code for neural network - Keras model
-5) "AlexF_Project4.ipynb" -
+5) "AlexF_Project4.ipynb" - Python code for Logistric regression model & optimisation of model
 6)
 
 # General description
