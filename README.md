@@ -5,6 +5,7 @@
 # Data Source: 
 https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
+## IMPORTANT NOTE- Run files on google colab ##
 # File description:
 1) "Data" folder - contains data from https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 2) "Kmeans_240319.ipynb" - python code for Kmeans clustering
