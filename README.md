@@ -127,6 +127,9 @@ Due to the skewed nature of this dataset,  K-means clustering is not an good opt
 - important Features of data : using this data we can train model and achive goal with high accuracy level 
  
  <img width="509" alt="image" src="https://github.com/AlexFeeney/Project4_Group3/assets/136966712/61dcddf2-4526-457d-bc9e-ded649d5a1b5">
+
+ ![image](https://github.com/AlexFeeney/Project4_Group3/assets/136966712/e1353f18-8498-4d09-9d20-582d312cd8f7)
+
  
 
  - Further investigation and improvement are necessary and by using to features and training model ,we can achieve goal
