@@ -8,10 +8,11 @@ https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 # File description:
 1) "Data" folder - contains data from https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 2) "Kmeans_240319.ipynb" - python code for Kmeans clustering
-3) "Kmeans_PCA_240319.ipynb" - python code for Kmeans clustering after reducing the number of features in the dataset
-4) "keras_model.ipynb" - python code for neural network - Keras model
-5) "AlexF_Project4.ipynb" - Python code for Logistric regression model & optimisation of model
-6) "UsingRandomforestmodel (4).ipynb" - Python code for Random forrest model .
+3) "Kmeans_Prac_Himali.ipynb" - python code for Kmeans clustering trained only on two features
+4) "Kmeans_PCA_240319.ipynb" - python code for Kmeans clustering after reducing the number of features in the dataset
+5) "keras_model.ipynb" - python code for neural network - Keras model
+6) "AlexF_Project4.ipynb" - Python code for Logistric regression model & optimisation of model
+7) "UsingRandomforestmodel (4).ipynb" - Python code for Random forrest model .
 
 # General description:
 
@@ -56,6 +57,33 @@ Our group aims to utilize a well documented dataset from https://www.kaggle.com/
 
 
 K-mean clustering method appears to cluster the patients differently when compared to actual stroke record from patients. Therefore, using K-mean clustering might not be a good option for this dataset.
+
+## K-means clustering trained only against "BMI" and "Average glucose levels" 
+
+![kmeans](https://github.com/AlexFeeney/Project4_Group3/assets/145959658/769387ee-92d5-4773-a45b-aff3228e97e4)
+Figure 1: Visualisation of true datapoints K-means trained only against "BMI and average glucose levels"
+
+![scatterplot](https://github.com/AlexFeeney/Project4_Group3/assets/145959658/cbf5f933-d47f-4531-b7f8-606be680d269)
+FIgure 2: Scatter plot displaying stroke status 
+
+
+
+Both figures show the true data points but figure 1 visualises 2 centroids  of the the clusters k means identified when trained only against BMI and average glucose levels.The colours assigned to each cluster is based on the individual data point's distance from the centroid it’s closest to.
+
+Figure 2 is a scatter plot showing the same data points but whether they have had a stroke or not. 
+
+When you compare the two, the yellow cluster seems to contain more people who have had strokes, represented by the blue dot concentration in the bottom right corner of figure 2. You can infer if you have a low BMI and higher glucose levels, you are more likely to have had a stroke. However, there are so many red dots due to the skewed nature of the dataset, making it difficult to see if there are more blue dots in the purple cluster. 
+
+![vy](https://github.com/AlexFeeney/Project4_Group3/assets/145959658/e0ddcb42-3290-41bd-a559-0cff5c7bfc82)
+
+
+If you refer to the scatter plot visualising the true stroke results of the previously trained K-means you can see more strokes present towards the bottom left corner, infering if you have low BMI and lower glucose levels, you are more likely to have had a stroke. 
+
+Due to the skewed nature of this dataset,  K-means clustering is not an good option to use as a predictive tool. 
+
+
+
+
 
 ## K-mean clustering with PCA
 -Image shows k-mean clustering with PCA
