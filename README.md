@@ -91,7 +91,7 @@ Due to the skewed nature of this dataset,  K-means clustering is not an good opt
 <img width="747" alt="image" src="https://github.com/AlexFeeney/Project4_Group3/assets/136966712/6f0f2dbd-9a1e-47fe-a558-d438916fa65d">
 
 
-## Random Forrest Model:
+## Random Forest Model:
 -To achive this model,convert data to fit in to model
 -All values converted in to binary values except age, bmi, avg_glucose level.
 
