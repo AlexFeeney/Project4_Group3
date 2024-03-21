@@ -14,7 +14,23 @@ https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 5) "keras_model.ipynb" - python code for neural network - Keras model
 6) "AlexF_Project4.ipynb" - Python code for Logistric regression model & optimisation of model
 7) "UsingRandomforestmodel (4).ipynb" - Python code for Random forrest model .
+Python: The programming language used for data analysis and modeling.
 
+
+# Prerequisite:
+
+- Pandas: A powerful library for data manipulation and analysis.
+
+- NumPy
+
+- Scikit-learn: A machine learning library providing simple and efficient tools for data mining and data analysis.
+
+- Matplotlib.
+
+- Seaborn.
+
+ - Google Colab: Interactive computing environment .....etc
+ 
 # General description:
 
 “Globally, the World Health Organisation estimates that there are at least 62 million stroke survivors. In Australia, 50,000 people suffer a stroke each year, leaving them with physical and mental disabilities that create an enormous emotional, social, and financial burden on our community.” (https://qbi.uq.edu.au/brain/brain-diseases/stroke/stroke-facts#:~:text=Strokes,financial%20burden%20on%20our%20community).
