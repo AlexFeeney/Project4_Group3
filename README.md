@@ -1,5 +1,4 @@
-# Project4_Group3
-# Stroke Prediction Model Comparition
+# Stroke Prediction Modelling
 ### Date : 
 21/03/2024
 # Data Source: 
